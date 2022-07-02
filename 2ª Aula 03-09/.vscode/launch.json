@@ -1,0 +1,61 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Ex02",
+      "request": "launch",
+      "mainClass": "Ex02",
+      "projectName": "2ª Aula 03-09_1e296738"
+    },
+    {
+      "type": "java",
+      "name": "Launch Teste",
+      "request": "launch",
+      "mainClass": "Teste",
+      "projectName": "2 º Aula 03-09_461e628b"
+    },
+    {
+      "type": "java",
+      "name": "Launch App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "2 º Aula 03-09_461e628b"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex01",
+      "request": "launch",
+      "mainClass": "Ex01",
+      "projectName": "2 º Aula 03-09_461e628b"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex02",
+      "request": "launch",
+      "mainClass": "Ex02",
+      "projectName": "2 º Aula 03-09_461e628b"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "e:\\Materias 2- Semestre\\Luciana - Java\\2 º Aula 03-09",
+      "environment": [],
+      "program": "e:\\Materias 2- Semestre\\Luciana - Java\\2 º Aula 03-09\\build\\Debug\\outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "externalConsole": false,
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

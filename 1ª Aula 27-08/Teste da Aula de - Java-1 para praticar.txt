@@ -1,0 +1,35 @@
+/* Escrever um programa que mostre a seguinte figura na tela:
+XXXXX
+X   X
+X   X
+X   X
+XXXXX
+*/
+
+------------------------------------------------------------------------------------------------------
+
+Escreva um programa que produza a seguinte saída na tela:
+
+ALUNO(A)          NOTA
+=========         =====
+ALINE              9.0  
+MÁRIO              DEZ
+SÉRGIO             4.5    
+SHIRLEY            7.0
+
+------------------------------------------------------------------------------------------------------
+
+Implemente um programa que desenhe um "pinheiro" na tela, similar ao abaixo.
+Enriqueça o desenho com outros caracteres, simulando enfeites.
+
+ X
+      XXX
+     XXXXX
+    XXXXXXX
+   XXXXXXXXX
+  XXXXXXXXXXX
+ XXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+       XX
+       XX
+      XXXX

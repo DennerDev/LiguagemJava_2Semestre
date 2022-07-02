@@ -1,0 +1,255 @@
+// 1ª Analise o seguinte em linguaguem JAVA e informe o que ser´q impresso no video.
+
+public class Ex01 {
+    public static void main(String[] args) {
+        int x, y, z;
+
+        x = 15;
+        y = 4;
+        z = 0;
+
+        while ( y > 0 ){
+            z = z + x ;
+            y--;
+        }
+
+        System.out.print(z);
+    }
+}
+
+// Resposta 60.
+--------------------------------------------
+// 2ª Considere o seguinte progama e informe o wue será impresso no vídeo.
+
+public class Ex02 {
+    public static void main(String[] args) {
+        int i, num, res;
+
+        num = 1;
+        res = 0;
+
+        for (i=1 ; i < 4 ; i++) {
+            num = num * i;
+            res = res + num;
+            System.out.print(res + "*");
+        }
+
+    }
+}
+
+// Resposta 1*3*9
+---------------------------------------------
+// 3ª Considere o progama abaixo, assinale aalterativa que corresponde à saída apresente na tela.
+
+import java.util.Scanner;
+
+public class Ex03 {
+    public static void main(String[] args) {
+        Scanner ler = new Scanner(System.in);
+
+        int i, k;
+        k = 0;
+
+        for (i=1 ; i<=3 ; i++) {
+            k++;
+            if (k*3 < 4) {
+                k++;
+                System.out.print (" Maçã ");
+            }
+            else System.out.print (" Pera ");
+
+            if (k<2) System.out.print (" Melancia");
+        }
+    }
+}
+
+// Resposta Maçã Pera Pera
+------------------------------------------------
+// 4ª Assinale a Alternativa que apresenta a saída da execução do progama abaixo
+
+import java.util.Scanner;
+
+
+public class Ex04 {
+    public static void main(String[] args) {
+        Scanner ler = new Scanner (System.in);
+
+        int i, a, b, f;
+
+        a = 0;
+        b = 1;
+        f = 1;
+
+        for (i=2 ; i<=6 ; i= i + 2) {
+            f = a + b;
+            a = b;
+            b = f;
+
+            System.out.print (b*10 + "  "); 
+        }
+    }
+}
+
+// Resposta: 10 20 30
+-----------------------------------------------
+// 5ª Analise o progama abaixo.
+// Caso o usuário digite o valor 5 para a varíavel B, os valores que serão escritos para
+// A e para, serão repectivamento:
+
+import java.util.Scanner;
+
+public class Ex05 {
+    public static void main(String[] args) {
+        Scanner ler = new Scanner (System.in);
+
+        int A=2, B;
+        System.out.print("Números: ");
+
+        B = ler.nextInt();
+
+        while (A <= 30) {
+            B = B + 2;
+            if (B > 20 ) B--;
+            A = A+B;
+        }
+        System.out.print("\n Valor de A: " + A);
+        System.out.print("\n Valor de B: " + B);
+    }
+}
+
+// Valor de A: 42 
+// Valor de B: 13
+------------------------------------------------
+/** 6ª
+ * Suponha que, durante a execução de um programa correspondente ao algoritmo a seguir, o usuário forneça o valor 6 como entrada. Neste caso, qual será a resposta apresentada pelo programa no vídeo?
+*/ 
+
+import java.util.Scanner;
+
+public class Ex06 {
+    public static void main(String[] args) {
+        Scanner ler = new Scanner (System.in);
+
+        int n, a, b;
+
+        System.out.println("Número: ");
+        n = ler.nextInt();
+
+        a = 0;
+        b = 1;
+
+        while (n >= 0) {
+          a = a + b;
+          b = b + 2;
+          n = n - 1;
+        }
+        System.out.print(a);
+    }
+}
+
+// Respostas 49
+---------------------------------------------------
+// 7ª Considera o progama abaixo, desenvolvido em JAVA, o que será impresso na tela ?
+
+import java.util.Scanner;
+
+public class Ex07 {
+    public static void main(String[] args) {
+        Scanner ler = new Scanner (System.in);
+
+        int i, x;
+
+        x = 5;
+        i = 1;
+
+        while (i < 4) {
+            x = x *  (-1);
+            if (x < i )  x= x + i;
+            i++;
+        }
+        System.out.println(x);
+    }
+}
+
+// Resposta  -1
+-------------------------------------------------------
+// 8ª Considera o progama abaixo:
+
+import java.util.Scanner;
+
+public class Ex08 {
+    public static void main(String[] args) {
+        Scanner ler = new Scanner (System.in);
+
+        int v1, v2, v3;
+
+        System.out.print (" Digite v1: "); v1 = ler.nextInt();
+        System.out.print (" Digite v2: "); v2 = ler.nextInt();
+        System.out.print (" Digite v3: "); v3 = ler.nextInt();
+
+        System.out.print(v1 + " ");
+
+        while (v3 > 1 ) {
+            v1 = v1 * v2;
+            v3 = v3 - 1;
+            System.out.print (v1 + " ");
+        }
+    }
+}
+
+// Resposta  27
+----------------------------------------------------------
+// 9ª Análise o progama abaixo e informe qual o valor será impresso no video, após a execução do programa 
+
+public class Ex09 {
+    public static void main(String[] args) {
+        int r=10, s=5, t=10, i;
+
+        for (i=1 ; i<=5 ; i++) {
+          if (r >= s) t = t+s;
+          else        t = t-s;
+
+          r++;
+          s = s+2;
+        }
+
+        System.out.print(t);
+    }
+}
+
+// Resposta  55
+---------------------------------------------------------
+// 10ª Analise o seguinte progama abaixo.
+/**
+ * Considere qoe os valores lidos para x1,x2, e x3 tenha, sido, repectivamente: 3, 4 e 3.
+ * É correto que afirmar que o valor impresso ao final da execução do algoritmo é igual a:
+ */
+
+import java.util.Scanner;
+
+public class Ex10 {
+    public static void main(String[] args) {
+        Scanner ler = new Scanner (System.in );
+
+        int x1, x2, x3, i;
+
+        System.out.print("Digite x1: "); x1 = ler.nextInt();
+        System.out.print("Digite x2: "); x2 = ler.nextInt();
+        System.out.print("Digite x3: "); x3 = ler.nextInt();
+
+        for (i=1 ; i <= x1 ; i++) {
+            x2 = x1 + x3;
+            x3 = x1 - x2;
+        }
+        System.out.print(x1+x2);
+    }
+}
+
+// Resposta 9 
+
+
+
+
+-
+
+

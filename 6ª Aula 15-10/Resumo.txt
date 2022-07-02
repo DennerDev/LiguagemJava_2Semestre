@@ -1,0 +1,9 @@
+Resumo das atividades praticas dadas na aula do dia 15-10, estão no Link abaixo.
+
+Link: https://codeshare.io/eV0PQx
+
+Foram realizados exercicio básico ultilizando for, com contagem de números 
+contagem de números pulando de 2 em 2, e depois fazendo calculo e a tabuada.
+
+
+

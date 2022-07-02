@@ -1,0 +1,96 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Ex03_Estrela",
+      "request": "launch",
+      "mainClass": "Ex03_Estrela",
+      "projectName": "Lista 2_bc91f999"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex04_Memorizando",
+      "request": "launch",
+      "mainClass": "Ex04_Memorizando",
+      "projectName": "Lista 2_bc91f999"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Lista 2_bc91f999"
+    },
+    {
+      "type": "java",
+      "name": "Launch teste",
+      "request": "launch",
+      "mainClass": "teste",
+      "projectName": "Lista 2_bc91f999"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex04_Memoria",
+      "request": "launch",
+      "mainClass": "Ex04_Memoria",
+      "projectName": "Lista 2_bc91f999"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex02_Armadinha",
+      "request": "launch",
+      "mainClass": "Ex02_Armadinha",
+      "projectName": "Lista 2_bc91f999"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex01_Jokenpo",
+      "request": "launch",
+      "mainClass": "Ex01_Jokenpo",
+      "projectName": "Lista 2_bc91f999"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex04",
+      "request": "launch",
+      "mainClass": "Ex04",
+      "projectName": "Lista 2_bc91f999"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex03",
+      "request": "launch",
+      "mainClass": "Ex03",
+      "projectName": "Lista 2_bc91f999"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex01",
+      "request": "launch",
+      "mainClass": "Ex01",
+      "projectName": "Lista 2_bc91f999"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "e:\\Materias 2- Semestre\\Luciana - Java\\Atividade - Para Entregar\\Lista 2",
+      "environment": [],
+      "program": "e:\\Materias 2- Semestre\\Luciana - Java\\Atividade - Para Entregar\\Lista 2\\build\\Debug\\outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
+      "externalConsole": false,
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
